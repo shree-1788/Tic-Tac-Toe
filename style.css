@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("tac.webp") center center/ cover;
+}
+
+.col {
+  height: 150px;
+  width: 150px;
+  border: solid 5px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  color: white;
+}
+
+.row {
+  display: flex;
+  margin-left: 200px;
+}
+
+.grid {
+  display: block;
+}
+
+#clear-btn {
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 3px;
+  margin-left: 50%;
+  font-size: 1.5rem;
+
+  border: solid 2px wheat;
+  color: black;
+}
+
+#result {
+  display: none;
+}
+
+#final-result {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
